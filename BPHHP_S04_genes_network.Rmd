@@ -44,7 +44,7 @@ Dopamine transporter gene DAT (SLC6A3)
 catechol-O-methyltransferase (COMT)
 brain derived neurotrophic factor (BDF)
 
-But the are obviously many (>20.000) more, and if you come across something in the literature, you can look the official code name here: https://www.genenames.org/ and add it to the list. But maybe for now, let start of with these genes:
+But the are obviously many (>20.000) more (and each with many loci), and if you come across something in the literature, you can look the official code name here: https://www.genenames.org/ and add it to the list. But maybe for now, let start of with these genes:
 
 ```{r, echo=TRUE}
 genesOfInterest <- c("SLC6A4","SLC6A3","COMT","BDNF")
