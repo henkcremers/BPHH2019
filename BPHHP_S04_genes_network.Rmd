@@ -88,7 +88,7 @@ More relevant for this course, is the following: how strong is the evidence for 
 ```{r}
 plot(m1,type = "GDCA heatmap")
 ```
-**What do you notice ?** If the values are fairly high, would could be a critical explanation? 
+**What do you notice ?** If the values are fairly high, what would be a critical explanation? 
  
  
 In case you a have a lot of time, you can go ahead and look at the papers that presented evidence for the association. Specifically, the following code pulls-up all the sentences from the papers that the discuss the GDA. The output is not that readable, but it might still be illustrative to look at the wording (how sure do the authors seem to be), and get a sense of the strength of the evidence, for instance for major depression.

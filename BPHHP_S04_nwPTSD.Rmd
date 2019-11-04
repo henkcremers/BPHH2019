@@ -32,7 +32,6 @@ download the data, navigate to the directory
 setwd("/Users/myname/data.....")
 
 ```{r}
-setwd("/Users/henkcremers/Google Drive/Work/Teaching/uva_resmas_BPHH/2019:20/S04/CourseMaterials/Day 3/1 MRF 2/")
 load("data.Rdata")
 ```
 
@@ -61,7 +60,7 @@ g1<-plot(n1, labels=names, layout="spring", vsize=6, cut=0, border.width=1.5, bo
 This is a visualization of the network structure (covariance) of the data. 
 **What do you see?** (Anything that seem noteworthy - just present)
 
-Next you can get quatify the observation of the network a bit, but plotting the centrality of the nodes. **What is centrlality?** (purely concentually, don't worry about the stats for now)
+Next you can get quantify the observation of the network a bit, but plotting the centrality of the nodes. **What is centrlality?** (purely conceptually, don't worry about the stats for now)
 
 
 ```{r}
