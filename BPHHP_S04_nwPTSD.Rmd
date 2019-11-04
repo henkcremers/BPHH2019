@@ -53,22 +53,23 @@ And now estimate the network, and plot the data
 # estimate network
 n1 <- estimateNetwork(data, default="EBICglasso")
 
-
 # plot network
 g1<-plot(n1, labels=names, layout="spring", vsize=6, cut=0, border.width=1.5, border.color="black", 
          groups=gr, color=c('#a8e6cf', '#dcedc1', '#ffd3b6', '#ff8b94'), nodeNames = longnames,legend.cex=.4)
 ```
 
 This is a visualization of the network structure (covariance) of the data. 
-**What do you see?** Anything that seem noteworthy - just present. 
+**What do you see?** (Anything that seem noteworthy - just present)
+
+Next you can get quatify the observation of the network a bit, but plotting the centrality of the nodes. **What is centrlality?** (purely concentually, don't worry about the stats for now)
 
 
 ```{r}
 c1 <- centralityPlot(n1,labels=longnames)
 ```
-** Which symptoms have the highest centrality?** Does that make sense ? 
+**Which symptoms have the highest centrality?** Does that make sense, clinically? 
 
-** What are some possible implications for highly central symptoms ? ** 
+**What are some possible implications for highly central symptoms ?** 
 
-That is all (for now) - this was just meant to give you some idea on how to run a network analyses. Any of the methodological details are not important for now. Just try to think of the pro/cons of network analyses and how/if it could help the discussed issues in biological psychiatry. 
+That is all (for now) - this was just meant to give you some idea on how to run a network analyses. Again, any of the methodological details are not important for now. Just try to think of the pro/cons of network analyses and how/if it could help the discussed issues in biological psychiatry. 
 
